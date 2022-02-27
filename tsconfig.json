@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "resolveJsonModule": true,
+    "types": [
+      "node",
+      "@types/jest"
+    ],
+    "paths": {
+      "@config/*": [
+        "./config/*"
+      ],
+      "@data/*": [
+        "./data/*"
+      ],
+      "@services/*": [
+        "./services/*"
+      ],
+      "@http/*": [
+        "./utils/http/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
